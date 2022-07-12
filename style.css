@@ -1,0 +1,42 @@
+:root{
+    --bg-header: #F9DFE0;
+    --bg-nav: #ECBDBF;
+    --bg-article: #3D8B70;
+    --bg-figure: #8FBC91;
+    --bg-footer: #DBC557;
+    --bg-body: grey;
+}
+
+body{
+    margin: 0;
+    border: 5px solid var(--bg-body);
+    height: 100%;
+}
+
+header{
+    background-color: var(--bg-header);
+    height: 200px;
+    width: 100%;
+}
+
+nav{
+    background-color: var(--bg-nav);
+    height: 100px;
+    width: 50%;
+}
+
+article{
+    background-color: var(--bg-article);
+    height: 500px;
+}
+
+figure{
+    background-color: var(--bg-figure);
+    margin: 0;
+    height: 100px;
+}
+
+footer{
+    background-color: var(--bg-footer);
+    height: 300px;
+}
